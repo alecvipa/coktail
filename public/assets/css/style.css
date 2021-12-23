@@ -26,7 +26,7 @@
 .overlayInicio{
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.486);
+    background-color: rgba(0, 0, 0, 0.315);
 }
 .serviciosTitleInicio{
     margin-top: 20%;
@@ -54,8 +54,9 @@
 }
 
 
+
 .navbar-toggler {
-    background-color: #F4C311 !important;
+    background-color: #725E6B !important;
 } 
 .logoCapitalNavBar{
     height: 9rem;
