@@ -12,7 +12,7 @@
 }
 .bannerContacto{
     height: 20rem;
-    background-image: url("/assets/images/alberca10.jpeg");
+    background-image: url("/assets/images/events.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,16 +130,25 @@
     margin-top: 2%;
 }
 .contactoSection{
-    background-color: #E5E4D6;
     padding-top: 5%;
     padding-bottom: 5%;
-    margin-top: 5%;
-    color: #053C6D;
+    /* margin-top: 5%; */
 }
 .carouselContainerKaab{
     padding-top: 2%;
 }
+@media(min-width:992px){
+    .carouselGallery{
+        display: none;
+    }
+}
 @media(max-width:991px){
+    .btnReservar{
+        margin-top: 7%;
+    }
+    .gallery{
+        display: none;
+    }
     .dondeDormiras{
         margin-top: 5%;
     }

@@ -29,8 +29,36 @@
                     <h3><i class="fas fa-cocktail" style="color: #81905E;"></i> GENERANDO EXPERIENCIAS</i></h3>
                 </div>
                 <div class="col-md-3"></div>
-            </div> <br>
+            </div> <br> <br>
             <div class="row">
+                <!-- Gallery -->
+                <div class="row gallery">
+                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                        <img src="/assets/images/6.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                            alt="Boat on Calm Water" />
+
+                        <img src="/assets/images/1.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                            alt="Wintry Mountain Landscape" />
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img src="/assets/images/2.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                            alt="Mountains in the Clouds" />
+
+                        <img src="/assets/images/5.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                            alt="Boat on Calm Water" />
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img src="/assets/images/7.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+
+                        <img src="/assets/images/3.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                            alt="Yosemite National Park" />
+                    </div>
+                </div>
+                <!-- Gallery -->
+            </div>
+            <div class="row carouselGallery">
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -46,7 +74,8 @@
                                 <img class="d-block w-100" src="/assets/images/2.jpg" alt="Second slide">
                                 <li class="list-group-item disabled">
                                     <h5>Eventos sociales & corporativos</h5>
-                                    <p>Congresos, convenciones, conferencias, capacitaciones, almuerzos o cenas de trabajo</p>
+                                    <p>Congresos, convenciones, conferencias, capacitaciones, almuerzos o cenas de
+                                        trabajo</p>
                                 </li>
                             </div>
                             <div class="carousel-item">
@@ -78,9 +107,9 @@
                 </div>
                 <div class="col-md-3"></div>
             </div>
-            <br> <br>
-            <button type="button" class="btn btn-dark btn-lg" onclick="location.href='#contacto';"
-                style="color: white;">Reservar</button>
+
+            {{!-- <button type="button" class="btn btn-dark btn-lg btnReservar" onclick="location.href='#contacto';"
+                style="color: white;">Reservar</button> --}}
 
         </div>
 
@@ -89,24 +118,20 @@
 <br>
 <div class="bannerContacto">
     <div class="titleContactoBannerOverlay">
-        <div class="container containerTitleBanner">
+        <div class="container containerTitleBanner text-center">
             <div class="row">
                 <div class=""></div>
                 <div class="">
-                    <h1 class="text-white text-center titleContactoBanner">
-                        ¿Dónde me voy a quedar?
+                    <h1 class="text-white text-center titleContactoBanner" style="color: gold !important;">
+                        Nuestro Compromiso
                     </h1>
-                    <h4 class="titleContactoBanner2 text-center">
-                        <span style="font-weight: bolder; color:#F4C311">Colonia Juan N.
-                            Álvarez, Guerrero, México</span> <br>
-                        <span class="text-white">
-                            Casa Kaak Naab está ubicado frente al mar y del otro lado de la finca encontrarás la Laguna
-                            donde podrás disfrutar de la flora y la fauna local.
-                        </span>
+                    <h4 class="titleContactoBanner2 text-center text-white">
+                        Mantenernos en constante capacitación para lograr cumplir con las
+                        expectativas de nuestros clientes y proporcionando servicios de la más alta calidad.
 
                     </h4>
-                    <button type="button" class="btn btn-warning btn-block"
-                        onclick="location.href='#contacto';">Reservar</button>
+                    <button type="button" class="btn btn-warning btn-lg"
+                        onclick="location.href='#contacto';">Información</button>
                 </div>
                 <div class=""></div>
             </div>
@@ -118,57 +143,95 @@
 <div class="serviciosDivLanging">
     <div class="container">
         <div class="row text-center">
-            <h1>¿Qué debes saber?</h1>
+            <h1>Nuestros Servicios</h1>
         </div>
         <br>
         <div class="row">
-            <div class="col-md-4">
-                <ul class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action list-group-item-success">Normas de la
-                        casa</a>
-                    <li class="list-group-item"><i class="fas fa-clock"></i> Llegada: 14:00 a 17:00</li>
-                    <li class="list-group-item"><i class="fas fa-clock"></i> Salida: 12:00</li>
-                    <li class="list-group-item"><i class="fas fa-door-closed"></i> Llegada autónoma con personal del
-                        edificio</li>
-                    <li class="list-group-item"><i class="fas fa-smoking-ban"></i> Prohibido fumar</li>
-                    <li class="list-group-item"><i class="fas fa-democrat"></i> NO se admiten fiestas o eventos</li>
-                    <li class="list-group-item"><i class="fas fa-paw"></i> Admite mascotas</li>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <i class="fas fa-calendar-day"></i> Organización de Eventos
                     <hr>
-                    <li class="list-group-item"><span style="color: #E9070D;">Otras normas</span> <br>
-                        El pago de mantenimiento solo incluye limpieza de habitaciones, areas comunes y alberca. Si
-                        requieres de otros servicios ,como preparación de alimentos y limpieza de la cocina no dudes en
-                        preguntarlos.</li>
-                </ul>
-            </div>
-            <div class="col-md-4 groupList">
-                <ul class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action list-group-item-success">Salud y
-                        seguridad</a>
-                    <li class="list-group-item"><i class="fas fa-star"></i> El anfitrión se ha comprometido a seguir el
-                        proceso de limpieza avanzada.</li>
-                    <li class="list-group-item"><i class="fas fa-exclamation-circle"></i> No hay alarma de monóxido de
-                        carbono</li>
-                    <li class="list-group-item"><i class="fas fa-exclamation-circle"></i>
-                        No hay alarma de humos</li>
-                    <li class="list-group-item"><i class="fas fa-exclamation-circle"></i>
-                        Piscina/jacuzzi sin valla ni puerta con cierre — “LA ALBERCA ESTA ELEVADA DEL PISO 40 CN, TIENE
-                        UNA PROFUNDIDAD DE 1.60 M POR LO QUE REQUIERE LA SUPERVISION DE LOS ADULTOS AL ESTAR CON NIÑOS.
-                        BAÑARSE ANTES DE METERSE.”</li>
-                </ul>
-            </div>
-            <div class="col-md-4 groupList">
-                <ul class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action list-group-item-success">Política de
-                        cancelación</a>
-                    <li class="list-group-item">Añade las fechas de tu viaje para obtener los detalles de cancelación de
-                        este alojamiento.</li>
-                </ul>
+                    <ul>
+                        <li>
+                            Cualquier tipo de evento social y
+                            corporativo como: Bodas, fiestas infantiles, cumpleaños, ferias, congresos, eventos
+                            empresariales regionales y nacionales, convenciones, conferencias, capacitaciones, almuerzos
+                            o
+                            cenas de trabajo, eventos deportivos y/o culturales, espectáculos artísticos, foros,
+                            excursiones, viajes grupales.
+                        </li> <br>
+                        <li>
+                            Tenemos una amplia gama de proveedores de confianza que nos han otorgado
+                            servicios durante años, es por eso que podemos otorgarles a nuestros clientes una gran
+                            confianza
+                            en la calidad y entrega, así como en cada uno los detalles.
+                        </li><br>
+                        <li>
+                            Nosotros nos encargamos de todos los detalles desde la preparación de
+                            alimentos, confitería en general, postres, bebidas, mantelería, meseros, decoración de
+                            ambientes, luces, música, seguridad y promoción. Así como también la impresión, edición
+                            comercialización y distribución de libros, revistas, folletos, volantes y publicaciones.
+                        </li><br>
+                    </ul>
+
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-bus"></i> Viajes y
+                    Transportación para grupos
+                    <hr>
+                    Viajes grupales, empresariales y excursiones. <br>Contamos con servicios
+                    de transportación de grupos a diferentes localidades para desempeñar el objeto social principal,
+                    así mismo nos encargamos del hospedaje, actividades y dinámicas, alimentos y eventos requeridos
+                    en la localidad.
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-poll-h"></i> Marketing y Publicidad
+                    <hr>
+                    Contamos con un equipo de creadores, trabajamos en tu marca y/o la
+                    creamos para potencializar el reconocimiento de tu empresa, estudiamos tus objetivos para
+                    elaborar un plan de acción acorde a tus necesidades, desarrollamos una publicidad innovadora y
+                    creativa para que tu marca sea reconocida y confiable para tus clientes. Usamos las nuevas
+                    tecnologías para desarrollar la publicidad que tu necesitas.
+                </li>
+            </ul>
+        </div> <br>
+        <div class="row">
+            <p>
+                <button class="btn btn-warning btn-block" type="button" data-toggle="collapse"
+                    data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Otros Servicios
+                </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                           <i class="fas fa-chevron-circle-right"></i> Compra, venta, importación, exportación, distribución y comercialización de todo tipo de
+                            bienes muebles e inmuebles, que se relacionen o que sean necesarios para el desarrollo del
+                            su objeto social.
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fas fa-chevron-circle-right"></i> Arrendamiento, subarrendamiento, compraventa de cualquier medio de transportación para
+                            desempeñar el objeto social principal.
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fas fa-chevron-circle-right"></i> Registrar, adquirir, poseer, usar, comprar, vender, ceder, arrendar y dar licencias de uso,
+                            gravar y enajenar en cualquier forma patentes, licencias franquicias, marcas, nombres
+                            comerciales, concesiones, derechos de autor y autorizaciones, para uso, explotación, manejo
+                            o representación y en general toda clase de derechos de propiedad industrial y comercial.
+                        </li>
+                        <li class="list-group-item"><i class="fas fa-chevron-circle-right"></i> Ser representante, agente o distribuidor de personas físicas y
+                            morales, tanto; nacionales como extranjeras, dentro y fuera del territorio de la república
+                            mexicana, para la realización de actividades relacionadas con el presente objeto social.
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 </div>
-</div>
-<div id="contacto" class="contactoSection">
+</div> <br> <br>
+<div id="contacto" class="contactoSection bg-dark">
     <div class="container text-center">
         <div class="row">
             <div class="col-md-6">
@@ -177,7 +240,7 @@
                         <div class="row">
                             <div class="col-md">
                                 <section class="card theForm">
-                                    <h5 class="card-header contactHeader">Reservar fechas</h5>
+                                    <h5 class="card-header contactHeader">Contacto</h5>
                                     <section class="card-body">
                                         <form action="/ajax/email" method="POST"
                                             onsubmit="return submitEmailForm(this);" id="myForm">
@@ -203,15 +266,7 @@
                                             <section>
                                                 <div class="form-group">
                                                     <!-- Date input -->
-                                                    <label class="control-label" for="date">Día de llegada</label>
-                                                    <input class="form-control formInput" id="date" name="date"
-                                                        placeholder="MM/DD/YYY" type="text" required />
-                                                </div>
-                                            </section>
-                                            <section>
-                                                <div class="form-group">
-                                                    <!-- Date input -->
-                                                    <label class="control-label" for="date">Número de noches</label>
+                                                    <label class="control-label" for="date">Servicio de interés</label>
                                                     <input class="form-control formInput" id="secondate"
                                                         name="secondate" type="text" required />
                                                 </div>
@@ -243,13 +298,13 @@
                 </section>
             </div>
             <div class="col-md-6 dondeDormiras">
-                <hr>
-                <h3>¿Dónde dormirás?</h3>
+                <hr style="color: white;">
+                <h3 style="color: white;">Queremos escucharte</h3>
                 <br>
                 <ul class="list-group">
-                    <li class="list-group-item"><i class="fas fa-bed"></i> <br>
-                        <h4>6 Dormitorios</h4>
-                        <p>Capacidad para 14 personas</p>
+                    <li class="list-group-item">
+                        <h4>Nuestros eventos se ajustan a tus decisiones</h4>
+                        <p>Siempre puedes contactarnos en nuestros diferentes canales de difusión</p>
                     </li>
                 </ul>
             </div>
