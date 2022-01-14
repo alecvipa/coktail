@@ -141,8 +141,14 @@
     .carouselGallery{
         display: none;
     }
+    .imageInicioLogo{
+        height: 15rem !important;
+    }
 }
 @media(max-width:991px){
+    .imageInicioLogo{
+        height: 10rem !important;
+    }
     .btnReservar{
         margin-top: 7%;
     }
