@@ -10,6 +10,16 @@
     background-position: 25% 85%; */
 
 }
+.fontBolder{
+    font-weight: bolder !important;
+    color: black;
+}
+.boldsete{
+    font-weight: 700;
+}
+.nuestroServiciosTitle{
+    font-size: 3rem;
+}
 .bannerContacto{
     height: 20rem;
     background-image: url("/assets/images/events.jpg");
