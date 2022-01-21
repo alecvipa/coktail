@@ -10,6 +10,9 @@
     background-position: 25% 85%; */
 
 }
+.conocenosBtn{
+    font-size: 1.5rem;
+}
 .fontBolder{
     font-weight: bolder !important;
     color: black;
@@ -17,6 +20,7 @@
 .boldsete{
     font-weight: 700;
 }
+
 .nuestroServiciosTitle{
     font-size: 3rem;
 }
@@ -156,6 +160,15 @@
     }
 }
 @media(max-width:991px){
+    .cardMisionVision2{
+        margin-top: 5%;
+    }
+    .cardMisionVision{
+        margin-left: 5%;
+    }
+    .conocenosBtn{
+        margin-top: 6% !important;
+    }
     .imageInicioLogo{
         height: 10rem !important;
     }
